@@ -16,14 +16,14 @@ function Navbar(){
         <button> Sign in </button>
         </div>
        <div className='navbar2'>
-            <Link to="/Movies">Movies</Link>
-            <Link to="/Stream">Stream</Link>
-            <Link to="/Events">Events</Link>
-            <Link to="/Plays">Plays</Link>
-            <Link to="Sports">Sports</Link>
-            <Link to="Activities">Activities</Link>
-            <Link to="Buzz">Buzz</Link>
-             <Link><img width={250} src="https://assets-in.bmscdn.com/static/2023/08/cwc23.png" alt="" /></Link>
+            <Link className='li' to="/Movies">Movies</Link>
+            <Link className='li' to="/Stream">Stream</Link>
+            <Link className='li' to="/Events">Events</Link>
+            <Link className='li' to="/Plays">Plays</Link>
+            <Link className='li' to="Sports">Sports</Link>
+            <Link className='li' to="Activities">Activities</Link>
+            <Link className='li' to="Buzz">Buzz</Link>
+             <Link className='li'><img width={250} src="https://assets-in.bmscdn.com/static/2023/08/cwc23.png" alt="" /></Link>
 
         
           </div>

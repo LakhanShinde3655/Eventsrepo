@@ -31,7 +31,20 @@
     color: aliceblue;
     border-radius: 7px;
 }
+.navbar2{
+    background-color: #333545;
+    color: aliceblue;
 
+    
+}
+.li {
+    display: inline;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+  
+   
+}
 
 
 
